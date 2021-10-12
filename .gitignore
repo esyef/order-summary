@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/order-summary-component-figma
+/order-summary-component-main
+*.fig
