@@ -1,11 +1,16 @@
 
+const size = {
+  mobile: '375px',
+  desktop: '1366px'
+}
+
 const GlobalStyled = {
-  breakPoints: {
-    xs: '376px',
-    lg: '1366px'
+  device: {
+    mobile: `(min-width: ${size.mobile})`,
+    desktop: `(min-width: ${size.desktop})`,
   },
   colors: {
-    primay: {
+    primary: {
       PaleBlue: 'hsl(225, 100%, 94%)',
       BrightBlue: 'hsl(245, 75%, 52%)',
     },

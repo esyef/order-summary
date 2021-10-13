@@ -1,12 +1,34 @@
 import styled from 'styled-components'
+import GlobalStyled from './GlobalStyled'
+import bgDesktop from './assets/images/pattern-background-desktop.svg'
+import bgMobile from './assets/images/pattern-background-mobile.svg'
 
+import Order from './components/Order'
 
-const  App = () => {
-  return (
-    <>
-      <h1> Order Summary </h1>
-    </>
-  )
+const Container = styled.div`
+	background-color: ${GlobalStyled.colors.primary.PaleBlue};
+	background-image: url(${bgMobile});
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 0px;
+	height: 100%;
+  padding-inline: 24px;
+  padding-block : 71px;
+
+	@media ${GlobalStyled.device.desktop} {
+		background-image: url(${bgDesktop});
+	  background-size: contain;
+		display: grid;
+		place-items: center;
+	}
+`
+
+const App = () => {
+	return (
+		<Container>
+			<Order />
+		</Container>
+	)
 }
 
-export default App;
+export default App
