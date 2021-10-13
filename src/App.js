@@ -23,10 +23,21 @@ const Container = styled.div`
 	}
 `
 
+const Attribution = styled.footer`
+	margin-top: 1rem;
+
+	font-size: 1.6rem;
+`
+
 const App = () => {
 	return (
 		<Container>
 			<Order />
+
+			<Attribution>
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. 
+				Coded by <a href="/as" rel="noreferrer noopener">Yeferson</a>.
+ 			 </Attribution>
 		</Container>
 	)
 }
