@@ -1,39 +1,35 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - Order summary card solucón
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Esta es mí solucipon para el reto [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor es Cool!.
 
-## Table of contents
+## Contenido
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
-
 ### Screenshot
 
-![](./OrderSummary.jpg)
+![](./OrderSummary.png)
 
 ### Links
 
-- Solution URL: [https://soyyef.github.io/order-summary/]
-- Live Site URL: [https://soyyef.github.io/order-summary/]
+- Live Site URL: [order-summary](https://soyyef.github.io/order-summary/)
 
-## My process
+## Proceso
 
-### Built with
+### Habilidades trabajas
 
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
+### Aprendizaje
 
 ReactJs y Styled Components me ayudaron a crear diferentes componentes con su funcionalidad reutilizable mediante el uso de props, CSS me ayudo a practicar el diseño responsive aplicando mobile firts.
 
@@ -58,11 +54,11 @@ const Media = ({ ...props }) => {
 }
 ```
 
-## Author
+## Autor
 
 - Website - [@soyyef](https://github.com/SoyYef)
 - Frontend Mentor - [@YeffWeb](https://www.frontendmentor.io/profile/YeffWeb)
 
-## Acknowledgments
+## Agradecimientos
 
 Agradezco a mí profesor [Fazt](https://www.youtube.com/watch?v=M6hBd3Lomvw&t=749s&ab_channel=FaztCode) me ayudo a desplegar este proyecto en GitHub pages 💻.
