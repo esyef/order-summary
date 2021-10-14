@@ -7,8 +7,6 @@ const Picture = styled.img.attrs( props => ({
   display: block;
   object-fit: contain;
   //width: auto;
-
-  
   border-top-left-radius: ${props => props.radius};
   border-top-right-radius: ${props => props.radius};
 
