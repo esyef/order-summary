@@ -25,7 +25,7 @@ const Container = styled.div`
 
 const Attribution = styled.footer`
 	margin-top: 1rem;
-
+	text-align: center;
 	font-size: 1.6rem;
 `
 
@@ -36,7 +36,7 @@ const App = () => {
 
 			<Attribution>
 				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. 
-				Coded by <a href="/as" rel="noreferrer noopener">Yeferson</a>.
+				Coded by <a href="/" rel="noreferrer noopener">Yeferson</a>.
  			 </Attribution>
 		</Container>
 	)
